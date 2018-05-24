@@ -1,6 +1,6 @@
 # Discussion:
 
-All solutions take:
+Solution using Map:
 
 Time Complexity : O((m+n) log m)  
 Space Complexity: O(m + n) 
