@@ -23,10 +23,9 @@ int main()
     vector<string> magazine_temp = split_string(magazine_temp_temp);
 
     vector<string> magazine(m);
-    // Create a map with all the magazine words along with a counter for each word encountered 
+    // Create a hash map with all the magazine words along with a counter for each word encountered 
     // (In order to handle multiple occurances of the same word)
-    map<string, int> magazine_set;
-    // O( m log m)
+    unordered_map<string, int> magazine_set;
     for (int i = 0; i < m; i++) {
         string magazine_item = magazine_temp[i];
         // Insert the words into the map and increase the counter for each word (magazine_item)
@@ -52,8 +51,7 @@ int main()
         ransom[i] = ransom_item;
     }
     // Check if each word in the ransom can be found in the magazine
-    // Exit the loop when a word cannot be found/we have looped through all words
-    // O( n log m)
+    // Exit the loop when a word cannot be found/we have looped through all word
     bool can = true;
     while(can && !ransom.empty()) 
     {
