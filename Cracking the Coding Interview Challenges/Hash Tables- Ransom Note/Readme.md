@@ -1,5 +1,9 @@
 # Discussion:
 
+**m** - the number of words in the magazine
+
+**n** - the number of words in the ransom note
+
 ### Solution using Map 
 
 *Worst-case Time Complexity :* **O((m+n) log m)**
