@@ -8,7 +8,7 @@ Space Complexity: **O(m + n)**
 Solution using hash_map gives better average-case complexity, however worst-case is worse than using maps:
 
 Average-Case Time Complexity : **O(m + n)**
-Worse Case Time Complexity:  **O(m<sup>2</sup> + m)**
+Worse Case Time Complexity:  **O(m<sup>2</sup> + mn)**
 
 Depending on the use-case you may want to evaluate the trade-offs and use the right data-structure.
 
