@@ -43,24 +43,26 @@ Print Yes if he can use the magazine to create an untraceable replica of his ran
 
 #### Sample Input 0
 
+``` 
 6 4
 give me one grand today night
-give one grand today
+give one grand today 
+```
 
 #### Sample Output 0
-
+```
 Yes
-
+```
 #### Sample Input 1
-
+```
 6 5
 two times three is not four
 two times two is four
-
+```
 #### Sample Output 1
-
+```
 No
-
+```
 #### Explanation 1
 
-two should occur two times in the magazine
+*two should occur two times in the magazine*
