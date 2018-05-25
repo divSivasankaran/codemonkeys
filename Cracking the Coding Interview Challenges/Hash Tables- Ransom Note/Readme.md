@@ -1,19 +1,21 @@
 # Discussion:
 
-Solution using Map gives a worst-case complexity of 
+### Solution using Map 
 
-Time Complexity : **O((m+n) log m)**
-Space Complexity: **O(m + n)**
+*Worst-case Time Complexity :* **O((m+n) log m)**
 
-Solution using hash_map gives better average-case complexity, however worst-case is worse than using maps:
+*Worst-case Space Complexity :* **O(m + n)**
 
-Average-Case Time Complexity : **O(m + n)**
-Worse Case Time Complexity:  **O(m<sup>2</sup> + mn)**
+### Solution using hash_map
+This gives better average-case complexity, however worst-case is worse than using maps:
+
+*Average-Case Time Complexity :* **O(m + n)**
+
+*Worse Case Time Complexity :*  **O(m<sup>2</sup> + mn)**
 
 Depending on the use-case you may want to evaluate the trade-offs and use the right data-structure.
 
-Note that in c++, the equivalent of a hash table is `std::unordered_map` and `std::map` serves as map. 
-In python however, `dict` is already based on an efficient hash structure.
+Note that in c++, the equivalent of a hash table is `std::unordered_map` and `std::map` serves as map. In python however, `dict` is already based on an efficient hash structure.
 
 # Question 
 
