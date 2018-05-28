@@ -1,5 +1,27 @@
 # Discussion
 
+## [Approach 1](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Stacks-%20Balanced%20Brackets/soln.cpp)
+
+* Iterate through each character in the string & check whether it is a left or a right bracket.
+* If it is a left bracket -> add it to the stack
+  Else check if the top of the stack matches the current character 
+* If there are too few left braces, or too many left braces, or the right & left brackets don't match, then the expression is not balanced.
+
+A stack follows a Last-In-First-Out policy which is perfect for this question as we want to match the most recently seen left-bracket with each right-bracket we notice.
+
+
+**n** - length of the input string
+
+*Time Complexity*: **O(n)**
+
+*Space Complexity*: **O(n)**
+
+This is because we only need to iterate through each character in the string. The push and pop operations in a stack are O(1).
+There are two helper functions `matcher(char )` and `isLeft(char )` that return the correct matching bracket & help decide if the given character is a left bracket/right brakcet accordingly. Both these functions operate at **O(1)** time-complexity
+
+
+
+
 # Question
 
 A bracket is considered to be any one of the following characters: (, ), {, }, [, or ].
