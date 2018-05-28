@@ -4,7 +4,7 @@
 
 * Iterate through each character in the string & check whether it is a left or a right bracket.
 * If it is a left bracket -> add it to the stack
-  Else check if the top of the stack matches the current character 
+  Else check if the top of the stack matches the current character
 * If there are too few left braces, or too many left braces, or the right & left brackets don't match, then the expression is not balanced.
 
 A stack follows a Last-In-First-Out policy which is perfect for this question as we want to match the most recently seen left-bracket with each right-bracket we notice.
@@ -19,8 +19,16 @@ A stack follows a Last-In-First-Out policy which is perfect for this question as
 This is because we only need to iterate through each character in the string. The push and pop operations in a stack are O(1).
 There are two helper functions `matcher(char )` and `isLeft(char )` that return the correct matching bracket & help decide if the given character is a left bracket/right brakcet accordingly. Both these functions operate at **O(1)** time-complexity
 
+## [Approach 2]
 
-
+* Similar to Approach 1, with a few differences in python implementation
+* Use stack as data structure to process the input string
+* Iterate through input string character by character
+* if stack is empty, just add the current character to stack
+* else check if top of stack is a match to current character through look-up from a dictionary
+    - if it is a match, pop the top of the stack
+    - else, add current character to the stack
+* after iterating through the input string, if the stack is empty, it implies the expression is balanced. 
 
 # Question
 
@@ -40,7 +48,7 @@ Given  strings of brackets, determine whether each sequence of brackets is balan
 
 ### Input Format
 
-The first line contains a single integer, , denoting the number of strings. 
+The first line contains a single integer, , denoting the number of strings.
 Each line  of the  subsequent lines consists of a single string, , denoting a sequence of brackets.
 
 ### Output Format
