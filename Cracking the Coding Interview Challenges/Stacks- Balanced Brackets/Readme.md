@@ -19,7 +19,7 @@ A stack follows a Last-In-First-Out policy which is perfect for this question as
 This is because we only need to iterate through each character in the string. The push and pop operations in a stack are O(1).
 There are two helper functions `matcher(char )` and `isLeft(char )` that return the correct matching bracket & help decide if the given character is a left bracket/right brakcet accordingly. Both these functions operate at **O(1)** time-complexity
 
-## [Approach 2]
+## [Approach 2](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Stacks-%20Balanced%20Brackets/soln.py)
 
 * Similar to Approach 1, with a few differences in python implementation
 * Use stack as data structure to process the input string
