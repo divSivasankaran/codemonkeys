@@ -2,7 +2,7 @@
 
 Consider the two stacks to be holding a different section of the queue at any given time with the following properties:
 
-* Stack1 holds the oldest element on top 
+* Stack1 holds the oldest element on top
 * Stack2 holds the newest element on top
 
 ### [Approach1](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Queues-%20A%20Tale%20of%20Two%20Stacks/soln.cpp)
@@ -11,7 +11,7 @@ Consider the two stacks to be holding a different section of the queue at any gi
 * Pop - Remove the top from Stack1. If Stack2 is empty, then iteratively pop elements from Stack2 & push them to Stack1
 * Front - Return the top element from Stack1
 
-*Worst-case Time Complexities*: 
+*Worst-case Time Complexities*:
 
 *Push* : **O(1)**
 
@@ -21,6 +21,22 @@ Consider the two stacks to be holding a different section of the queue at any gi
 
 Pop operation takes **O(n)** because we might have to transfer the whole queue over from stack2 to stack1 in the worst case
 
+[Approach 2](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Queues-%20A%20Tale%20of%20Two%20Stacks/soln.py)
+Implement queue as two stacks - one stack contains items from old to new (top), and the other stack contains items in reverse order - new to old (top)
+
+* Push - Just add to top of "old to new" stack, irrespective of status of either stack
+* Pop - If "new to old" stack is not empty, pop the topmost element from this stack. If it is empty, iteratively pop items from "old to new" stack to "new to old" stack
+* Peek - Similar to pop, but instead of popping from the topmost element of "new to old" stack, we just read from the top
+
+*Worst-case Time Complexities*:
+
+*Push* : **O(1)**
+
+*Pop* : **O(n)**
+
+*Peek* : **O(n)**
+
+Pop and Peek operation take **O(n)** because we might have to transfer the whole queue over from one stack to the other in the worst case
 
 # [Question](https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks/problem)
 
@@ -42,7 +58,7 @@ In this challenge, you must first implement a queue using two stacks. Then proce
 
 ### Input Format
 
-The first line contains a single integer, , denoting the number of queries. 
+The first line contains a single integer, , denoting the number of queries.
 Each line  of the  subsequent lines contains a single query in the form described in the problem statement above. All three queries start with an integer denoting the query , but only query  is followed by an additional space-separated value, , denoting the value to be enqueued.
 
 It is guaranteed that a valid answer always exists for each query of type .
