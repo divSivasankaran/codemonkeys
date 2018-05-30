@@ -2,14 +2,14 @@
 
 Consider the two stacks to be holding a different section of the queue at any given time with the following properties:
 
-* Stack1 holds the oldest element on top
-* Stack2 holds the newest element on top
+* **oldest_on_top** - holds the oldest element on top
+* **newest_on_top** - holds the newest element on top
 
 ### [Approach 1](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Queues-%20A%20Tale%20of%20Two%20Stacks/soln.cpp)
 
-* Push - Just add the element to Stack2 *unless both Stack1 & Stack2 are empty, in which case add to Stack1.*
-* Pop - Remove the top from Stack1. If Stack2 is empty, then iteratively pop elements from Stack2 & push them to Stack1
-* Front - Return the top element from Stack1
+* Push - Just add the element to `newest_on_top` *unless both `oldest_on_top` & `newest_on_top` are empty, in which case add to `oldest_on_top`.*
+* Pop - Remove the top from `oldest_on_top`. If `newest_on_top` is empty, then iteratively pop elements from `newest_on_top` & push them to `oldest_on_top`
+* Front - Return the top element from `oldest_on_top`
 
 *Worst-case Time Complexities*:
 
@@ -19,14 +19,14 @@ Consider the two stacks to be holding a different section of the queue at any gi
 
 *Front* : **O(1)**
 
-Pop operation takes **O(n)** because we might have to transfer the whole queue over from stack2 to stack1 in the worst case
+Pop operation takes **O(n)** because we might have to transfer the whole queue over from `newest_on_top` to `oldest_on_top` in the worst case
 
 ### [Approach 2](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Queues-%20A%20Tale%20of%20Two%20Stacks/soln.py)
 Implement queue as two stacks - one stack contains items from old to new (top), and the other stack contains items in reverse order - new to old (top)
 
-* Push - Just add to top of "old to new" stack, irrespective of status of either stack
-* Pop - If "new to old" stack is not empty, pop the topmost element from this stack. If it is empty, iteratively pop items from "old to new" stack to "new to old" stack
-* Peek - Similar to pop, but instead of popping from the topmost element of "new to old" stack, we just read from the top
+* Push - Just add to top of `old to new` stack, irrespective of status of either stack
+* Pop - If `new to old` stack is not empty, pop the topmost element from this stack. If it is empty, iteratively pop items from `old to new` stack to `new to old` stack
+* Peek - Similar to pop, but instead of popping from the topmost element of `new to old` stack, we just read from the top
 
 Refer to the image for a pictorial explanation ![image](./tale_of_two_stacks.png)
 

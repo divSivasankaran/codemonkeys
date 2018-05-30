@@ -26,10 +26,12 @@ class MyQueue {
         }
 
         void pop() {
-        
-            // We need to remove the oldest element first. This is why keeping stack_oldest_on_top is useful.
-            stack_oldest_on_top.pop();
             
+            if(!stack_oldest_on_top.empty())
+            {
+              // We need to remove the oldest element first. This is why keeping stack_oldest_on_top is useful.
+              stack_oldest_on_top.pop();
+            }
             // When the stack that stores the oldest one becomes empty, we need to move all the elements from the other 
             // At the end of this op, the order of the queue remains stable while maintaining the same property of the two stacks.
             if(stack_oldest_on_top.empty())
