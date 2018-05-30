@@ -28,8 +28,6 @@ Implement queue as two stacks - one stack contains items from old to new (top), 
 * Pop - If `new to old` stack is not empty, pop the topmost element from this stack. If it is empty, iteratively pop items from `old to new` stack to `new to old` stack
 * Peek - Similar to pop, but instead of popping from the topmost element of `new to old` stack, we just read from the top
 
-Refer to the image for a pictorial explanation ![image](./tale_of_two_stacks.png)
-
 *Worst-case Time Complexities*:
 
 *Push* : **O(1)**
@@ -39,6 +37,10 @@ Refer to the image for a pictorial explanation ![image](./tale_of_two_stacks.png
 *Peek* : **O(n)**
 
 Pop and Peek operation take **O(n)** because we might have to transfer the whole queue over from one stack to the other in the worst case
+
+Refer to the image below for a pictorial explanation
+
+![image](./tale_of_two_stacks.png)
 
 # [Question](https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks/problem)
 
