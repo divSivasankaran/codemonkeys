@@ -5,7 +5,7 @@ Consider the two stacks to be holding a different section of the queue at any gi
 * Stack1 holds the oldest element on top
 * Stack2 holds the newest element on top
 
-### [Approach1](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Queues-%20A%20Tale%20of%20Two%20Stacks/soln.cpp)
+### [Approach 1](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Queues-%20A%20Tale%20of%20Two%20Stacks/soln.cpp)
 
 * Push - Just add the element to Stack2 *unless both Stack1 & Stack2 are empty, in which case add to Stack1.*
 * Pop - Remove the top from Stack1. If Stack2 is empty, then iteratively pop elements from Stack2 & push them to Stack1
@@ -21,7 +21,7 @@ Consider the two stacks to be holding a different section of the queue at any gi
 
 Pop operation takes **O(n)** because we might have to transfer the whole queue over from stack2 to stack1 in the worst case
 
-[Approach 2](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Queues-%20A%20Tale%20of%20Two%20Stacks/soln.py)
+### [Approach 2](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Queues-%20A%20Tale%20of%20Two%20Stacks/soln.py)
 Implement queue as two stacks - one stack contains items from old to new (top), and the other stack contains items in reverse order - new to old (top)
 
 * Push - Just add to top of "old to new" stack, irrespective of status of either stack
