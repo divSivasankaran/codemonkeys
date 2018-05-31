@@ -21,11 +21,13 @@ We observe a few properties first - Given a tree T, T is a BST if and only if:
 - For all nodes: `left.data < node.data < right.data`
 - Any given sub-tree will have all it's values less than the root if it's the left-child and greater than the root if it's the right child.
 
+Steps:
+
 1) set `min` and `max` to be the integer limits for lowest & highest resp.
 2) Recurisvely process `checkBST(root, min, max)`:
     * Check if `root` is not `NULL`. If it is, do nothing
     * Check if `root.data < min && root.data < max)` holds true
-    * Check if `root.data < root.right.data` and `root.data > root.left.data`
+    * Check if `root.data < root.right.data && root.data > root.left.data` holds true
     * Process the left-sub-tree if it exists:
         * `checkBST(root.left, min, root.data)`
     * Process the right-sub-tree if it exists:
@@ -65,7 +67,7 @@ checkBST has the following parameter(s):
 You are not responsible for reading any input from stdin. Hidden code stubs will assemble a binary tree and pass its root node to your function as an argument.
 
 ### Constraints
-    0 < data < 10^4
+* 0 < data < 10<sup>4</sup>
 ### Output Format
 
 Your function must return a boolean true if the tree is a binary search tree. Otherwise, it must return false.
