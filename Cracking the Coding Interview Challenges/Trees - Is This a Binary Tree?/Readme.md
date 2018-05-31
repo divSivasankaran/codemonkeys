@@ -1,6 +1,6 @@
 # Discussion
 
-### [Approach 1](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Trees%20-%20Is%20This%20a%20Binary%20Tree%3F/soln.py)
+### [Approach 1](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Trees%20-%20Is%20This%20a%20Binary%20Tree%3F/soln_InOrderTraversal.py)
 
 * Traverse the binary tree in order and append each of the nodes into an array
 * Check if the array elements are sorted
@@ -12,6 +12,33 @@
 *Array checking*: **O(n)**
 
 *Additional Space complexity* : **O(n)**
+
+### [Approach 2](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Trees%20-%20Is%20This%20a%20Binary%20Tree%3F/soln_recursive.cpp)
+
+We observe a few properties first - Given a tree T, T is a BST if and only if:
+
+- The sub-trees formed by the left and right children of the root are BSTs 
+- For all nodes: `left.data < node.data < right.data`
+- Any given sub-tree will have all it's values less than the root if it's the left-child and greater than the root if it's the right child.
+
+1) set `min` and `max` to be the integer limits for lowest & highest resp.
+2) Recurisvely process `checkBST(root, min, max)`:
+    * if `root` is `NULL` then its parent will be a leaf node, do nothing
+    * Check if `root.data < min && root.data < max)` holds true
+    * Process the left-sub-tree if it exists:
+        * Update the new max to be the current root's value. This is because all the nodes inside this left-subtree MUST be 
+          lesser than the root node if this is a BST 
+        * `checkBST(root.left, min, root.data)`
+        * check if left child's value is smaller than the root
+    *  Process the right-sub-tree if it exists:
+        * Update the new min to be the current root's value. This is because all the nodes inside this right-subtree MUST be 
+          greater than the root node if this is a BST 
+        * `checkBST(root.left, root.data, max)`
+        * check if right child's value is greater than the root
+    * return true if all the above conditions succeeded else false.
+
+*Worst-case Time Complexities*: **O(n)**
+
 
 # [Question](https://www.hackerrank.com/challenges/ctci-is-binary-search-tree/problem)
 
