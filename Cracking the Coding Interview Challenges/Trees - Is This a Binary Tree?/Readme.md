@@ -28,7 +28,7 @@ checkBST has the following parameter(s):
 You are not responsible for reading any input from stdin. Hidden code stubs will assemble a binary tree and pass its root node to your function as an argument.
 
 ### Constraints
-
+    0 < data < 10^4
 ### Output Format
 
 Your function must return a boolean true if the tree is a binary search tree. Otherwise, it must return false.
