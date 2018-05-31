@@ -23,18 +23,13 @@ We observe a few properties first - Given a tree T, T is a BST if and only if:
 
 1) set `min` and `max` to be the integer limits for lowest & highest resp.
 2) Recurisvely process `checkBST(root, min, max)`:
-    * if `root` is `NULL` then its parent will be a leaf node, do nothing
+    * Check if `root` is not `NULL`. If it is, do nothing
     * Check if `root.data < min && root.data < max)` holds true
+    * Check if `root.data < root.right.data` and `root.data > root.left.data`
     * Process the left-sub-tree if it exists:
-        * Update the new max to be the current root's value. This is because all the nodes inside this left-subtree MUST be 
-          lesser than the root node if this is a BST 
         * `checkBST(root.left, min, root.data)`
-        * check if left child's value is smaller than the root
-    *  Process the right-sub-tree if it exists:
-        * Update the new min to be the current root's value. This is because all the nodes inside this right-subtree MUST be 
-          greater than the root node if this is a BST 
+    * Process the right-sub-tree if it exists:
         * `checkBST(root.left, root.data, max)`
-        * check if right child's value is greater than the root
     * return true if all the above conditions succeeded else false.
 
 *Worst-case Time Complexities*: **O(n)**
