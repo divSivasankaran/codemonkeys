@@ -18,7 +18,7 @@ The Node struct is defined as follows:
        {
            return true;
        }
-       // Check if the current node's data adhere's to the sub-tree's min & max values 
+       // Check if the current node's data adheres to the sub-trees' min & max values 
        if(root-> data <= min || root-> data >= max)
            return false;
        
@@ -44,7 +44,7 @@ The Node struct is defined as follows:
          if(root->right->data <= root->data)
                return false;
           
-         /* recursively process the left-sub tree. 
+         /* recursively process the right-sub tree. 
           Update the new min to be the current root's value. This is because all the nodes inside this right-subtree MUST be 
           greater than the root node if this is a BST */
          res = checkBST(root->right, root->data, max);
