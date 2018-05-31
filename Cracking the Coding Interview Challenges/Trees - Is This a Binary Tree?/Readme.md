@@ -1,4 +1,19 @@
-# Question
+# Discussion
+
+### [Approach 1](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Trees%20-%20Is%20This%20a%20Binary%20Tree%3F/soln.py)
+
+* Traverse the binary tree in order and append each of the nodes into an array
+* Check if the array elements are sorted
+
+*Worst-case Time Complexities*:
+
+*Traverse in order* : **O(n)**
+
+*Array checking*: **O(n)**
+
+*Additional Space complexity* : **O(n)**
+
+# [Question](https://www.hackerrank.com/challenges/ctci-is-binary-search-tree/problem)
 
 For the purposes of this challenge, we define a binary search tree to be a binary tree with the following properties:
 
