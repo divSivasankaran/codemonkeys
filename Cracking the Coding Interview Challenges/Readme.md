@@ -3,7 +3,7 @@ Contains our solutions & discussions for all the questions in Hackerrank for [Cr
 
 ### DATA STRUCTURES 
 * [Arrays: Left Rotation](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Arrays-%20Left%20Rotation)
-* Strings: Making Anagrams
+* [Strings: Making Anagrams](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Strings-%20Making%20Anagrams)
 * [Hash Tables: Ransom Note](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Hash%20Tables-%20Ransom%20Note)
 * [Linked Lists: Detect a Cycle](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Linked%20Lists-%20Detect%20a%20Cycle)
 * [Stacks: Balanced Brackets](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Stacks-%20Balanced%20Brackets)
@@ -14,7 +14,7 @@ Contains our solutions & discussions for all the questions in Hackerrank for [Cr
 
 ### ALGORITHM 
 * [Sorting: Bubble Sort](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Sorting-%20Bubble%20Sort)
-* Sorting: Comparator
+* [Sorting: Comparator](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges)
 * Merge Sort: Counting Inversions
 * Hash Tables: Ice Cream Parlor
 * DFS: Connected Cell in a Grid
