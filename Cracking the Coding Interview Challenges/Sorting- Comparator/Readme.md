@@ -1,13 +1,17 @@
 
 # Discussion
 
-### Approach1 - Using QuickSort
-
 *Average-case Time Complexity:* **O(nlog n)**
 
 *Worst-case Time Complexity :* **O(n<sup>2</sup>)**
 
 *Worst-case Space Complexity :* **O(n)**
+
+
+[This](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Sorting-%20Comparator/soln.cpp)
+approach implements a sorting function using quick-sort. This is good to see what goes on within the built-in sort functions in different languages. Typically though the built-in sort functions use a variation or better sorting algorithms like Heap Sort/Merge Sort.
+
+[This easier solution](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Sorting-%20Comparator/soln_2.py) uses the built-in sort function simply implements a `compare` function and passes it to the sort algorithm.
 
 # Question
 
