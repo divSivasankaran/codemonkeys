@@ -16,7 +16,7 @@ Contains our solutions & discussions for all the questions in Hackerrank for [Cr
 * [Sorting: Bubble Sort](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Sorting-%20Bubble%20Sort)
 * [Sorting: Comparator](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Sorting-%20Comparator)
 * [Merge Sort: Counting Inversions](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Merge%20Sort-%20Counting%20Inversions)
-* Hash Tables: Ice Cream Parlor
+* [Hash Tables: Ice Cream Parlor](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Hash%20Tables-%20Ice%20Cream%20Parlor)
 * DFS: Connected Cell in a Grid
 * BFS: Shortest Reach in a Graph
 
