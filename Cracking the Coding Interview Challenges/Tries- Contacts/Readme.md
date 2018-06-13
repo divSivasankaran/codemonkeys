@@ -1,3 +1,40 @@
+# Discussion
+
+## [Approach 1](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Tries-%20Contacts/soln_2.cc)
+
+*Worst-case Time Complexity*:
+
+*Space Complexity* : 
+
+## [Approach 2](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Tries-%20Contacts/soln.cpp)
+
+* Use a hash map & store each substring as a key with its value being the number of times it has been encountered so far. 
+* For a search operation all you need to do is return the value of the given query string from the hash map if it exists & 0 otherwise.
+
+
+*For example:*
+
+If the input string is *"hacker"*, then add the following substrings as keys with value 1 if it doesn't exist and add 1 if it already exists : 
+    
+    h
+    ha
+    hac
+    hack
+    hacke
+    hacker
+
+
+**n** - Number of strings
+
+**m** - Number of characters in the string
+
+*Worst-case Time Complexities for each operation*
+
+* *ADD:* **O(m)**
+
+* *FIND:* **O(1)**
+
+*Space Complexity* : **O(mn)**
 
 # Question
 
