@@ -25,10 +25,10 @@ The XOR Operator `^`, also known as *Exclusive Or* works as follows:
 
 |a|b|a^b|
 |--|:--:|---:|
-|0|0| 0 |
-|1|0| 1 |
-|0|1| 1 |
-|1|1| 0 |
+|0|0|0|
+|1|0|1|
+|0|1|1|
+|1|1|0|
 
 **Key Idea**
 
@@ -38,8 +38,11 @@ The XOR Operator `^`, also known as *Exclusive Or* works as follows:
 In our case, we are guaranteed to have n-1/2 pairs of numbers with just 1 number without a pair. So all we need to do is XOR all the numbers in a serial fashion, the final result will be the number we need. Every other number will cancel itself out :)
 
 *Worst-case Time Complexities:*
+
 *XOR :* **O(1)**
+
 *Overall :* **O(n)**, 1 op per element
+
 *Space Complexity:* **O(n)**
 
 ## [Question](Question.pdf)
