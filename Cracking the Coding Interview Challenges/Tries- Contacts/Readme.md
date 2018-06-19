@@ -1,10 +1,16 @@
 # Discussion
 
-## [Approach 1](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Tries-%20Contacts/soln_2.cc)
+## [Approach 1: Using Trie](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Tries-%20Contacts/soln_2.cc)
+* Create a trie to store the contacts.
+* Each node stores the number of contacts stored in its subtrees.
+* Update all the nodes when adding a contact.
+* In order to search for a string, traverse the tie and return the number of contacts at that node.
 
-*Worst-case Time Complexity*:
+* Time Complexity*:
+* *ADD:* **O(m)**
+* *FIND:* **O(m)**
+*Worst-case Space Complexity* : **O(mn)**
 
-*Space Complexity* : 
 
 ## [Approach 2](https://github.com/div1090/codemonkeys/blob/master/Cracking%20the%20Coding%20Interview%20Challenges/Tries-%20Contacts/soln.cpp)
 
