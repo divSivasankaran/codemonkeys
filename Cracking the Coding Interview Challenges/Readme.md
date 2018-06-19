@@ -1,7 +1,7 @@
 Contains our solutions & discussions for all the questions in Hackerrank for [Cracking the Coding Interview Challenges](https://www.hackerrank.com/domains/tutorials/cracking-the-coding-interview)
 
 
-### DATA STRUCTURES 
+### DATA STRUCTURES
 * [Arrays: Left Rotation](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Arrays-%20Left%20Rotation)
 * [Strings: Making Anagrams](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Strings-%20Making%20Anagrams)
 * [Hash Tables: Ransom Note](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Hash%20Tables-%20Ransom%20Note)
@@ -12,7 +12,7 @@ Contains our solutions & discussions for all the questions in Hackerrank for [Cr
 * [Heaps: Find the Running Median](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Heaps-%20Find%20the%20Running%20Median)
 * [Tries: Contacts](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Tries-%20Contacts)
 
-### ALGORITHM 
+### ALGORITHM
 * [Sorting: Bubble Sort](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Sorting-%20Bubble%20Sort)
 * [Sorting: Comparator](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Sorting-%20Comparator)
 * [Merge Sort: Counting Inversions](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Merge%20Sort-%20Counting%20Inversions)
@@ -25,4 +25,4 @@ Contains our solutions & discussions for all the questions in Hackerrank for [Cr
 * Recursion: Fibonacci Numbers
 * Recursion: Davis' Staircase
 * DP: Coin Change
-* Bit Manipulation: Lonely Integer
+* [Bit Manipulation: Lonely Integer](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Bit%20Manipulation-%20Lonely%20Integer)

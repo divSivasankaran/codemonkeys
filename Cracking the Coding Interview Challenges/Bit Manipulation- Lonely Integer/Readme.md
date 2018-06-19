@@ -24,11 +24,11 @@ In the end, there will be only one remaining element in the set, which is the un
 The XOR Operator `^`, also known as *Exclusive Or* works as follows:
 
 |a|b|a^b|
-|-------|
-|0|0|0|
-|1|0|1|
-|0|1|1|
-|1|1|0|
+|--|:--:|---:|
+|0|0| 0 |
+|1|0| 1 |
+|0|1| 1 |
+|1|1| 0 |
 
 **Key Idea**
 
