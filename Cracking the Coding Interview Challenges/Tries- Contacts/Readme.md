@@ -6,6 +6,10 @@
 * Update all the nodes when adding a contact.
 * In order to search for a string, traverse the tie and return the number of contacts at that node.
 
+**n** - Number of strings
+
+**m** - Number of characters in the string
+
 *Time Complexity*
 
 * *ADD:* **O(m)**
