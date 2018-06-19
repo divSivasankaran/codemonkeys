@@ -48,6 +48,6 @@ In our case, we are guaranteed to have n-1/2 pairs of numbers with just 1 number
 ## [Question](Question.pdf)
 <object data="Question.pdf" type="application/pdf" width="700px" height="700px">    
     <embed src="Question.pdf">
-        This browser does not support PDFs. Read it <a href="Question.pdf">here</a>.</p>
+        This browser does not support PDFs. Read it <a href="question.pdf">here</a>.</p>
     </embed>
 </object>
