@@ -17,12 +17,12 @@ Contains our solutions & discussions for all the questions in Hackerrank for [Cr
 * [Sorting: Comparator](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Sorting-%20Comparator)
 * [Merge Sort: Counting Inversions](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Merge%20Sort-%20Counting%20Inversions)
 * [Hash Tables: Ice Cream Parlor](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Hash%20Tables-%20Ice%20Cream%20Parlor)
-* DFS: Connected Cell in a Grid
-* BFS: Shortest Reach in a Graph
+* [DFS: Connected Cell in a Grid](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/DFS-%20Connected%20Cell%20in%20a%20Grid)
+* [BFS: Shortest Reach in a Graph](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/BFS-%20Shortest%20Reach%20in%20a%20Graph)
 
-# TECHNIQUES/CONCEPTS
-* Time Complexity: Primality
-* Recursion: Fibonacci Numbers
-* Recursion: Davis' Staircase
-* DP: Coin Change
+## TECHNIQUES/CONCEPTS
+* [Time Complexity: Primality](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Time%20Complexity-%20Primality)
+* [Recursion: Fibonacci Numbers](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Recursion-%20Fibonacci%20Numbers)
+* [Recursion: Davis' Staircase](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Recursion-Davis's%20Staricase)
+* [DP: Coin Change](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/DP-Coin%20Change)
 * [Bit Manipulation: Lonely Integer](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Bit%20Manipulation-%20Lonely%20Integer)
