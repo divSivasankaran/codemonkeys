@@ -20,7 +20,7 @@ Contains our solutions & discussions for all the questions in Hackerrank for [Cr
 * [DFS: Connected Cell in a Grid](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/DFS-%20Connected%20Cell%20in%20a%20Grid)
 * [BFS: Shortest Reach in a Graph](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/BFS-%20Shortest%20Reach%20in%20a%20Graph)
 
-## TECHNIQUES/CONCEPTS
+### TECHNIQUES/CONCEPTS
 * [Time Complexity: Primality](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Time%20Complexity-%20Primality)
 * [Recursion: Fibonacci Numbers](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Recursion-%20Fibonacci%20Numbers)
 * [Recursion: Davis' Staircase](https://github.com/div1090/codemonkeys/tree/master/Cracking%20the%20Coding%20Interview%20Challenges/Recursion-Davis's%20Staricase)
