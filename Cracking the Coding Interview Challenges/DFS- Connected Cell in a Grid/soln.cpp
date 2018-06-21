@@ -14,7 +14,7 @@ void exploreRegion(vector<vector<int>>& grid, vector<vector<bool>> &processed, v
         if(r<0||c<0||r>=rows || c>= cols||processed[r][c]==true)
             continue;
         processed[r][c] = true;
-        
+
         if(grid[r][c] == 1)
         {
             //Add this node to the region
@@ -22,22 +22,23 @@ void exploreRegion(vector<vector<int>>& grid, vector<vector<bool>> &processed, v
             // Add its neighbours to outer
             for(int i=max(0,r-1);i<=std::min(r+1,rows-1);i++)
                 for(int j=max(0,c-1);j<=std::min(c+1,cols-1);j++)
-                    outer.push_back(pair<int,int>(i,j));
+                    if(grid[r][c]==1)
+                        outer.insert(outer.begin(),pair<int,int>(i,j));
         }
     }
 }
 int explore(vector<vector<int>>& grid, vector<vector<bool>> &processed)
-{ 
+{
     int m = grid.size();
     int n = grid[0].size();
-    
+
     vector<pair<int,int>> to_process;
     for(int i = 0; i< grid.size(); i++)
     {
         for(int j = 0; j< grid[0].size();j++)
             to_process.push_back(pair<int,int>(i,j));
     }
-    
+
     unordered_map<int,vector<pair<int,int>>> regions;
     int region_count = 0;
     int curr_index = 0;
@@ -57,9 +58,9 @@ int explore(vector<vector<int>>& grid, vector<vector<bool>> &processed)
             processed[r][c] = true;
             continue;
         }
-        //Region discovered. Get all connected nodes 
+        //Region discovered. Get all connected nodes
         vector<pair<int,int>> re;
-        regions[region_count] = re;        
+        regions[region_count] = re;
         vector<pair<int,int>> outer;
         outer.push_back(pair<int,int>(r,c));
         exploreRegion(grid, processed, regions[region_count++],outer);
@@ -95,7 +96,7 @@ int main()
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
     vector<vector<bool>> processed(n, vector<bool>(m, false));
-    
+
     int res = explore(grid, processed);
 
     fout << res << "\n";
