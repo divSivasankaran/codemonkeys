@@ -25,5 +25,3 @@ So you just need to iterate until `\sqrt{n}` :)
         This browser does not support PDFs. Read it <a href="question.pdf">here</a>.</p>
     </embed>
 </object>
-
-Had a fun weekend building on Google Voice Assistant to make online ordering easier with Elayabharath Elango Vanchinathan Venkataramani Nagappan Nachiappan! #runnersup #googleassistant #smartlivinghack
