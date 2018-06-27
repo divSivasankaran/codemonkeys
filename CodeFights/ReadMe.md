@@ -3,11 +3,11 @@ Contains our solutions & discussions for all the questions in codefights for [In
 Solutions by topic:
 
 ### Arrays
-* [First Duplicate](/FirstDuplicate)
-* [First non-repeating Character](/firstNotRepeatingCharacter)
-* [Rotate Image](/rotateImage)
-* [Sudoku Validity](/Sudoku)
-* [Cryptarithm]()
+* [First Duplicate](https://github.com/div1090/codemonkeys/tree/master/CodeFights/FirstDuplicate)
+* [First non-repeating Character](https://github.com/div1090/codemonkeys/tree/master/CodeFights/firstNotRepeatingCharacter)
+* [Rotate Image](https://github.com/div1090/codemonkeys/tree/master/CodeFights/rotateImage)
+* [Sudoku Validity](https://github.com/div1090/codemonkeys/tree/master/CodeFights/Sudoku)
+* [Cryptarithm]
 
 ### LinkedLists
 
