@@ -20,7 +20,7 @@ solution = [['O', '0'],
             ['D', '7'],
             ['R', '8'],
             ['S', '9']]
-            ```
+```
 the output should be `isCryptSolution(crypt, solution) = true`.
 
 When you decrypt `"SEND"`, `"MORE"`, and `"MONEY"` using the mapping given in crypt, you get 9567 + 1085 = 10652 which is correct and a valid arithmetic equation.
