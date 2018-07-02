@@ -10,8 +10,8 @@ Solutions by topic:
 * [Cryptarithm](https://github.com/div1090/codemonkeys/tree/master/CodeFights/cryptarithm)
 
 ### LinkedLists
-* Remove k from list
-* Is Palindrome
+* [Remove k from list](https://github.com/div1090/codemonkeys/tree/master/CodeFights/removeKFromList)
+* [Is Palindrome](https://github.com/div1090/codemonkeys/tree/master/CodeFights/isListPalindrome)
 * Add two huge numbers
 * Merge two LinkedLists
 * Reverse nodes in K groups
