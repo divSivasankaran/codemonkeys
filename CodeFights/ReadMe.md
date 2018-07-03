@@ -19,8 +19,8 @@ Solutions by topic:
 
 ### Hash Tables
 * [Grouping Dishes](https://github.com/div1090/codemonkeys/tree/master/CodeFights/groupingDishes)
-* Are following patterns
-* Contains Close Nums
+* [Are following patterns](https://github.com/div1090/codemonkeys/tree/master/CodeFights/areFollowingPatterns)
+* [Contains Close Nums](https://github.com/div1090/codemonkeys/tree/master/CodeFights/containsCloseNums)
 * Possible Sums
 * Swap Lex Order
 
