@@ -18,7 +18,7 @@ Solutions by topic:
 * Rearrange last N
 
 ### Hash Tables
-* Grouping Dishes
+* [Grouping Dishes](https://github.com/div1090/codemonkeys/tree/master/CodeFights/groupingDishes)
 * Are following patterns
 * Contains Close Nums
 * Possible Sums
