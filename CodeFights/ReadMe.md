@@ -12,7 +12,7 @@ Solutions by topic:
 ### LinkedLists
 * [Remove k from list](https://github.com/div1090/codemonkeys/tree/master/CodeFights/removeKFromList)
 * [Is Palindrome](https://github.com/div1090/codemonkeys/tree/master/CodeFights/isListPalindrome)
-* Add two huge numbers
+* [Add two huge numbers](https://github.com/div1090/codemonkeys/tree/master/CodeFights/addTwoHugeNumbers)
 * Merge two LinkedLists
 * Reverse nodes in K groups
 * Rearrange last N
