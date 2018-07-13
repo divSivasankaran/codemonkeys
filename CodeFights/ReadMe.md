@@ -13,9 +13,9 @@ Solutions by topic:
 * [Remove k from list](https://github.com/div1090/codemonkeys/tree/master/CodeFights/removeKFromList)
 * [Is Palindrome](https://github.com/div1090/codemonkeys/tree/master/CodeFights/isListPalindrome)
 * [Add two huge numbers](https://github.com/div1090/codemonkeys/tree/master/CodeFights/addTwoHugeNumbers)
-* Merge two LinkedLists
-* Reverse nodes in K groups
-* Rearrange last N
+* [Merge two LinkedLists]
+* [Reverse nodes in K groups]
+* [Rearrange last N](https://github.com/div1090/codemonkeys/tree/master/CodeFights/rearrangeLastN)
 
 ### Hash Tables
 * [Grouping Dishes](https://github.com/div1090/codemonkeys/tree/master/CodeFights/groupingDishes)
@@ -40,5 +40,5 @@ Solutions by topic:
 ### Dynamic Programming: Basic
 
 ### Common Techniques: Basic
-
+* [Contains Duplicates](https://github.com/div1090/codemonkeys/tree/master/CodeFights/containsDuplicates)
 ### Big-O Notation
