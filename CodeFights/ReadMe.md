@@ -13,8 +13,8 @@ Solutions by topic:
 * [Remove k from list](https://github.com/div1090/codemonkeys/tree/master/CodeFights/removeKFromList)
 * [Is Palindrome](https://github.com/div1090/codemonkeys/tree/master/CodeFights/isListPalindrome)
 * [Add two huge numbers](https://github.com/div1090/codemonkeys/tree/master/CodeFights/addTwoHugeNumbers)
-* [Merge two LinkedLists]
-* [Reverse nodes in K groups]
+* [Merge two LinkedLists](https://github.com/div1090/codemonkeys/tree/master/CodeFights/mergeTwoLinkedLists)
+* [Reverse nodes in K groups](https://github.com/div1090/codemonkeys/tree/master/CodeFights/reverseNodesInKGroups)
 * [Rearrange last N](https://github.com/div1090/codemonkeys/tree/master/CodeFights/rearrangeLastN)
 
 ### Hash Tables
